@@ -36,7 +36,7 @@ const Contact = () => {
             </div>
             <div className="col-span-1 md:col-span-3 bg-gray-200 p-5 rounded-sm">
               <form action="">
-                <div className="flex items-center justify-between mb-4 gap-3">
+                <div className="flex items-center justify-between mb-4 flex-col md:flex-row gap-3">
                   <div className="w-full flex flex-col">
                     <label htmlFor="name" className="text-gray-600">
                       Your Name

@@ -12,10 +12,10 @@
     @apply py-20
   }
   .section-title{
-    @apply text-[28px] font-semibold relative after:bg-primary after:w-[100px] after:h-[2px] after:absolute after:bottom-4 after:ml-2
+    @apply md:text-[28px] text-[24px] font-semibold relative after:bg-primary md:after:w-[100px] after:w-[70px] after:h-[2px] after:absolute after:bottom-4 after:ml-2
   }
   .tab-btn{
-    @apply px-4 py-1 border-2 border-primary hover:bg-primary transition-all ease-linear rounded-sm uppercase
+    @apply px-4 py-1 border-2 border-primary hover:bg-primary transition-all ease-linear rounded-sm uppercase text-[14px] md:text-[15px]
   }
   .resume-btn{
     @apply px-2 py-3 text-sm font-semibold bg-primary hover:bg-green-600 mr-4 transition-all ease-in-out duration-200

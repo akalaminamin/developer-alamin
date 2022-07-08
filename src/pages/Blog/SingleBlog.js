@@ -8,7 +8,7 @@ const SingleBlog = ({ blog }) => {
             <img className="w-full rounded-md" src={blog.imgLink} alt="blog" />
           </div>
           <h2 className="text-xl my-3">{blog.title}</h2>
-          <p>{blog.description.slice(0, 110)}</p>
+          <p className="text-[14px] md:text-[16px]">{blog.description.slice(0, 110)}</p>
         </a>
       </div>
     </>

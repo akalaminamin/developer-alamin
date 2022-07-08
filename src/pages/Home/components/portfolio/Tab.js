@@ -10,7 +10,7 @@ const Tab = ({ setAllPortfolio}) => {
     };
   return (
     <>
-     <div className="flex items-center justify-center gap-3 mb-6">
+     <div className="flex items-center justify-center flex-wrap gap-3 mb-6">
           <button
             className={category === "All" ? "tab-btn bg-primary" : "tab-btn"}
             onClick={() => {

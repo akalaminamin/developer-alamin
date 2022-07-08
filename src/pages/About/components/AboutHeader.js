@@ -73,7 +73,7 @@ const AboutHeader = () => {
           <h2 className="text-lg font-semibold text-left mb-2">
             {skill.category}
           </h2>
-          <div className="flex items-center justify-start gap-4">
+          <div className="flex items-center justify-start flex-wrap gap-4">
             {skill.technology.map((tech, index) => (
               <p
                 className="text-sm bg-gray-400 px-3 text-black rounded-sm"

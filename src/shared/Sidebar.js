@@ -9,10 +9,47 @@ import {
 } from "react-icons/bs";
 import { FaLinkedinIn, FaGithubAlt, FaHome } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-const Sidebar = () => {
+const Sidebar = ({ open, setOpen }) => {
+  const menus = [
+    {
+      text: "Home",
+      icon: <FaHome />,
+      path: "/",
+    },
+    {
+      text: "About Me",
+      icon: <BsFillPersonFill />,
+      path: "/about",
+    },
+    {
+      text: "Services",
+      icon: <MdMiscellaneousServices />,
+      path: "services",
+    },
+    {
+      text: "Portfolio",
+      icon: <BsHddNetworkFill />,
+      path: "portfolio",
+    },
+    {
+      text: "Blog",
+      icon: <BsChatLeftText />,
+      path: "blog",
+    },
+    // {
+    //   text: "Testimonial",
+    //   icon: <MdOutlineReviews />,
+    //   path: "testimonial",
+    // },
+    {
+      text: "Contact Me",
+      icon: <AiOutlineContacts />,
+      path: "contact",
+    },
+  ];
   return (
-    <div className="w-[225px] font-JosefinSans py-10">
-      <div className="profile text-center">
+    <div className="w-auto font-JosefinSans py-10">
+      <div className="profile text-center pt-[50px] md:pt-0">
         <img
           className="w-[110px] h-[110px] rounded-full object-cover mx-auto"
           src={require("../assets/images/developer-alamin.jpeg")}
@@ -47,48 +84,21 @@ const Sidebar = () => {
         </div>
       </div>
       <ul className="mt-10 mx-4">
-        <li className="mb-3 flex items-center justify-start">
-          <span className="mr-2">
-            <FaHome />
-          </span>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li className="mb-3 flex items-center justify-start">
-          <span className="mr-2">
-            <BsFillPersonFill />
-          </span>
-          <NavLink to="/about">About Me</NavLink>
-        </li>
-        <li className="mb-3 flex items-center justify-start">
-          <span className="mr-2">
-            <MdMiscellaneousServices />
-          </span>
-          <NavLink to="/services">Services</NavLink>
-        </li>
-        <li className="mb-3 flex items-center justify-start">
-          <span className="mr-2">
-            <BsHddNetworkFill />
-          </span>
-          <NavLink to="/projects">Portfolio</NavLink>
-        </li>
-        <li className="mb-3 flex items-center justify-start ">
-          <span className="mr-2">
-            <BsChatLeftText />
-          </span>
-          <NavLink to="/blog">Blog</NavLink>
-        </li>
-        <li className="mb-3 flex items-center justify-start">
-          <span className="mr-2">
-            <MdOutlineReviews />
-          </span>
-          <NavLink to="/testimonial">Testimonial</NavLink>
-        </li>
-        <li className="mb-3 flex items-center justify-start">
-          <span className="mr-2">
-            <AiOutlineContacts />
-          </span>
-          <NavLink to="/contact">Contact Me</NavLink>
-        </li>
+        {menus.map((menu, index) => (
+          <NavLink
+            key={index}
+            to={menu.path}
+            className={({ isActive }) =>
+              isActive ? "text-primary" : "text-white"
+            }
+            onClick={() => setOpen(!open)}
+          >
+            <li className="mb-3 flex items-center justify-start">
+              <span className="mr-2">{menu.icon}</span>
+              {menu.text}
+            </li>
+          </NavLink>
+        ))}
       </ul>
     </div>
   );

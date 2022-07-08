@@ -51,8 +51,8 @@ const ServicesSection = () => {
                     {services?.map((item, index) => (
                         <div key={index}>
                             <span className="text-4xl text-gray-300">{item.icon}</span>
-                            <h2 className="text-2xl font-semibold mt-5 mb-2">{item.title}</h2>
-                            <p>{item.description}</p>
+                            <h2 className="md:text-2xl text-xl font-semibold mt-5 mb-2">{item.title}</h2>
+                            <p className="text-[14px] md:text-[16px]">{item.description}</p>
                         </div>
                     ))}
                 </div>
