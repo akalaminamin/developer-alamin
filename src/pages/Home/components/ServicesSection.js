@@ -49,7 +49,7 @@ const ServicesSection = () => {
                 <h2 className="section-title mb-6 text-white">What I will do for you</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
                     {services?.map((item, index) => (
-                        <div key={index}>
+                        <div key={index} data-aos="zoom-in" data-aos-duration="1000">
                             <span className="text-4xl text-gray-300">{item.icon}</span>
                             <h2 className="md:text-2xl text-xl font-semibold mt-5 mb-2">{item.title}</h2>
                             <p className="text-[14px] md:text-[16px]">{item.description}</p>

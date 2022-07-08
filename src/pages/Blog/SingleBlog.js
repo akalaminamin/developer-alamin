@@ -2,7 +2,7 @@ import React from "react";
 const SingleBlog = ({ blog }) => {
   return (
     <>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000">
         <a href={blog.blogLink} target="_blank">
           <div>
             <img className="w-full rounded-md" src={blog.imgLink} alt="blog" />

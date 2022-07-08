@@ -48,28 +48,36 @@ const AboutHeader = () => {
   ];
   return (
     <section className="text-center font-JosefinSans section-padding">
-      <div>
-        <img
-          className="w-auto h-[300px] object-cover rounded-lg mx-auto"
-          src={require("../../../assets/images/developer-alamin.jpeg")}
-          alt="developer alamin"
-        />
+      <div data-aos="zoom-out-up" data-aos-duration="1000">
+        <div>
+          <img
+            className="w-auto h-[300px] object-cover rounded-lg mx-auto"
+            src={require("../../../assets/images/developer-alamin.jpeg")}
+            alt="developer alamin"
+          />
+        </div>
+        <h2 className="text-xl font-semibold my-4">Developer Al Amin</h2>
+        <p>
+          Al Amin, currently training himself aggresively to become a master
+          level MERN stack devloper. <br /> currently studying honours in
+          Marketing but have passion in <br /> Software Development and
+          Programming.
+        </p>
+        <div className="mb-5">
+          <FooterIcon />
+        </div>
+        <a href="#" target="_blank" className="resume-btn">
+          Get Resume
+        </a>
+        <h2 className="section-title mb-6 text-white text-left">My Skills</h2>
       </div>
-      <h2 className="text-xl font-semibold my-4">Developer Al Amin</h2>
-      <p>
-        Al Amin, currently training himself aggresively to become a master level
-        MERN stack devloper. <br /> currently studying honours in Marketing but
-        have passion in <br /> Software Development and Programming.
-      </p>
-      <div className="mb-5">
-        <FooterIcon />
-      </div>
-      <a href="#" target="_blank" className="resume-btn">
-        Get Resume
-      </a>
-      <h2 className="section-title mb-6 text-white text-left">My Skills</h2>
       {skills.map((skill, index) => (
-        <div key={index} className="mb-6">
+        <div
+          key={index}
+          className="mb-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h2 className="text-lg font-semibold text-left mb-2">
             {skill.category}
           </h2>

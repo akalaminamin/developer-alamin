@@ -7,6 +7,8 @@ const SinglePortfolio = ({ project }) => {
       <div
         className="grid grid-cols-1 md:grid-cols-2 gap-6 content-start"
         key={project.id}
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <div className="h-[200px] w-full">
           <img

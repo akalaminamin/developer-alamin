@@ -5,7 +5,11 @@ import FooterIcon from "../../shared/FooterIcon";
 const Contact = () => {
   return (
     <>
-      <section className="py-10 text-gray-200 font-JosefinSans">
+      <section
+        className="py-10 text-gray-200 font-JosefinSans"
+        data-aos="fade-in"
+        data-aos-duration="1000"
+      >
         <div className="">
           <h2 className="section-title mb-6 text-gray-50">Contact With Me</h2>
           <div className="grid grid-cols-1 md:grid-cols-5 gap-5">
