@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SinglePortfolio from "./SinglePortfolio.js";
 import { Link } from "react-router-dom";
-import projects from "../../../../data.js";
+import { projects } from "../../../../data.js";
 import Tab from "./Tab.js";
 
 const PortfolioSection = () => {
@@ -10,8 +10,10 @@ const PortfolioSection = () => {
     <section className="py-10 text-gray-200 font-JosefinSans">
       <h2 className="section-title mb-6 text-white">My Works</h2>
       <div className="grid grid-cols-1 gap-5">
-        <Tab allPortfolio={allPortfolio} setAllPortfolio={setAllPortfolio}/>
-        <SinglePortfolio allPortfolio={allPortfolio} />
+        <Tab allPortfolio={allPortfolio} setAllPortfolio={setAllPortfolio} />
+        {allPortfolio.slice(0, 3).map((project, index) => (
+          <SinglePortfolio project={project} key={index} />
+        ))}
       </div>
       <div className="flex items-center justify-center">
         <Link

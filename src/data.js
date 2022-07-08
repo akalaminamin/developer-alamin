@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
   {
     id: 1,
     imgLink: "https://i.ibb.co/Y2B6pch/Agency-website.png",
@@ -89,5 +89,26 @@ const projects = [
     technologies: ["React ", "React Bootstrap", "Css3", "Node", "Express", "MongoDB"],
   },
 ];
-
-export default projects
+export const blogs = [
+  {
+    id:1,
+    title:"What is Redux?",
+    imgLink:"https://res.cloudinary.com/practicaldev/image/fetch/s--PTLyFRBZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0wt9odmq7z3nusc7d40k.png",
+    description:"Redux is a predictable state container for JavaScript apps. As the application grows, it becomes difficult to keep it organized and maintain data flow. Redux solves this problem by managing the application’s state with a single global object called Store.",
+    blogLink:"https://dev.to/akalaminamin/redux-toolkit-110e"
+  },
+  {
+    id:2,
+    title:"What is Redux toolkit?",
+    imgLink:"https://res.cloudinary.com/practicaldev/image/fetch/s--PTLyFRBZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0wt9odmq7z3nusc7d40k.png",
+    description:"Redux is a predictable state container for JavaScript apps. As the application grows, it becomes difficult to keep it organized and maintain data flow. Redux solves this problem by managing the application’s state with a single global object called Store.",
+    blogLink:"https://dev.to/akalaminamin/redux-toolkit-110e"
+  },
+  {
+    id:3,
+    title:"What is Redux toolkit query?",
+    imgLink:"https://res.cloudinary.com/practicaldev/image/fetch/s--PTLyFRBZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0wt9odmq7z3nusc7d40k.png",
+    description:"Redux is a predictable state container for JavaScript apps. As the application grows, it becomes difficult to keep it organized and maintain data flow. Redux solves this problem by managing the application’s state with a single global object called Store.",
+    blogLink:"https://dev.to/akalaminamin/redux-toolkit-110e"
+  }
+]

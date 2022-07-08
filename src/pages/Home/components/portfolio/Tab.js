@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import projects from "../../../../data.js";
+import {projects} from "../../../../data.js";
 
-const Tab = ({allPortfolio, setAllPortfolio}) => {
+const Tab = ({ setAllPortfolio}) => {
     const [category, setCategory] = useState("All");
     const filterdPortfolio = (cate) => {
       setCategory(cate);
