@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRegEdit, FaGithub, FaDatabase } from "react-icons/fa";
+import {FaLink, FaGithub, FaDatabase } from "react-icons/fa";
 
 const SinglePortfolio = ({ project }) => {
   return (
@@ -36,7 +36,7 @@ const SinglePortfolio = ({ project }) => {
               href={project.liveLink}
               target="_blank"
             >
-              <FaRegEdit />
+              <FaLink />
             </a>
             <a
               className="text-primary cursor-pointer text-xl"
