@@ -89,7 +89,7 @@ const Sidebar = ({ open, setOpen }) => {
             key={index}
             to={menu.path}
             className={({ isActive }) =>
-              isActive ? "text-primary" : "text-white"
+              isActive ? "text-primary" : "text-white hover:text-primary"
             }
             onClick={() => setOpen(!open)}
           >
