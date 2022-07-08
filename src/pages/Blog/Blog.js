@@ -1,8 +1,10 @@
 import React from "react";
 import {blogs} from "../../data.js";
+import Footer from "../../shared/Footer.js";
 import SingleBlog from "./SingleBlog.js";
 const Blog = () => {
   return (
+    <>
     <section className="py-10 text-gray-200 font-JosefinSans">
       <div className="">
         <h2 className="section-title mb-6 text-white">My Blogs</h2>
@@ -13,6 +15,8 @@ const Blog = () => {
         </div>
       </div>
     </section>
+    <Footer />
+    </>
   );
 };
 

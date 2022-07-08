@@ -24,7 +24,7 @@ const HeroArea = () => {
             <div className="btn mt-5">
               <a
                 href="#"
-                className="px-2 py-3 text-sm font-semibold bg-primary mr-4"
+                className="resume-btn"
               >
                 Get Resume
               </a>

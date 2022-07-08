@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../shared/Footer";
 import HeroArea from "./components/HeroArea";
 import Homeblog from "./components/Homeblog";
 import HomeFooter from "./components/HomeFooter";
@@ -13,6 +14,7 @@ const Home = () => {
       <PortfolioSection />
       <Homeblog />
       <HomeFooter />
+      <Footer />
     </div>
   );
 };

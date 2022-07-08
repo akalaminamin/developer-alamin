@@ -22,7 +22,7 @@ const SinglePortfolio = ({ project }) => {
             {project?.technologies.map((technology, index) => (
               <p
                 key={index}
-                className="px-2 bg-gray-300 text-gray-900 rounded-md text-sm whitespace-nowrap"
+                className="px-2 bg-gray-300 text-gray-900 rounded-sm text-sm whitespace-nowrap"
               >
                 {technology}
               </p>
