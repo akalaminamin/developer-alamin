@@ -16,10 +16,8 @@ const HeroArea = () => {
             <p>
               I am a Junior Full Stack Web Developer, currently mastering MERN
               stack and it is also my goal. I can convert design to code in
-              pixel perfection. I am a react addict and can make single page
-              applications, static and dynamic applications with Express JS and
-              mongodb. I have much knowledge in pure CSS with SCSS. And also
-              trying to become a master full stack developer.
+              pixel perfection. I have much knowledge in pure CSS with animation and css framework bootstrap and tailwind. And also
+              trying to become a master full stack developer. I am always love to learn new technology.
             </p>
             <div className="btn mt-5">
               <a
