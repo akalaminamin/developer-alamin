@@ -1,21 +1,24 @@
 import React from "react";
-import {FaLink, FaGithub, FaDatabase } from "react-icons/fa";
+import { FaLink, FaGithub, FaDatabase } from "react-icons/fa";
 
 const SinglePortfolio = ({ project }) => {
   return (
     <>
       <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-6 content-start"
+        className="grid grid-cols-1 md:grid-cols-2 gap-6 content-start group"
         key={project.id}
         data-aos="fade-up"
         data-aos-duration="1000"
+        data-aos-daily="500"
       >
-        <div className="h-[200px] w-full">
+        <div className="w-full overflow-hidden h-[300px]">
+          <div className="h-auto">
           <img
-            className="h-full w-full object-cover"
+            className="h-auto w-full transition-transform group-hover:translate-y-[-80%] overflow-hidden cursor-pointer duration-[5000ms]"
             src={project.imgLink}
             alt="project"
           />
+          </div>
         </div>
         <div className="content">
           <h2 className="text-xl mb-2">{project.title}</h2>
