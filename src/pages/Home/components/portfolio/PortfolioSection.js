@@ -17,7 +17,7 @@ const PortfolioSection = () => {
       </div>
       <div className="flex items-center justify-center">
         <Link
-          to="/projects"
+          to="/portfolio"
           className="px-4 py-2 bg-primary hover:bg-transparent hover:border-primary border-2 border-primary transition-all ease-linear duration-200 cursor-pointer mt-3"
         >
           View All Work
