@@ -72,7 +72,7 @@ const Contact = () => {
                     name="email"
                   />
                 </div>
-                {/* <div className="w-full flex flex-col mb-4">
+                <div className="w-full flex flex-col mb-4">
                   <label htmlFor="website" className="text-gray-600">
                     Your Website
                   </label>
@@ -81,7 +81,7 @@ const Contact = () => {
                     type="email"
                     name="text"
                   />
-                </div> */}
+                </div>
                 <div className="w-full flex flex-col mb-4">
                   <label htmlFor="phone" className="text-gray-600">
                     Your Message

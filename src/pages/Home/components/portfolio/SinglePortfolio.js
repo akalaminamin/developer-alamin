@@ -13,11 +13,11 @@ const SinglePortfolio = ({ project }) => {
       >
         <div className="w-full overflow-hidden h-[300px]">
           <div className="h-auto">
-          <img
-            className="h-auto w-full transition-transform group-hover:translate-y-[-80%] overflow-hidden cursor-pointer duration-[5000ms]"
-            src={project.imgLink}
-            alt="project"
-          />
+            <img
+              className="h-auto w-full transition-transform group-hover:translate-y-[-80%] overflow-hidden cursor-pointer duration-[5000ms]"
+              src={project.imgLink}
+              alt="project"
+            />
           </div>
         </div>
         <div className="content">
@@ -48,13 +48,15 @@ const SinglePortfolio = ({ project }) => {
             >
               <FaGithub />
             </a>
-            <a
-              className="text-primary cursor-pointer text-xl"
-              href={project.backendLink}
-              target="_blank"
-            >
-              <FaDatabase />
-            </a>
+            {project.backendLink ? (
+              <a
+                className="text-primary cursor-pointer text-xl"
+                href={project.backendLink}
+                target="_blank"
+              >
+                <FaDatabase />
+              </a>
+            ) : null}
           </div>
         </div>
       </div>
