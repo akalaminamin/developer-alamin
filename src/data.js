@@ -99,6 +99,16 @@ export const projects = [
     description: "A responsive website single-page application for providing healthcare-related tips. Firebase is used for user login and private routes through React Router DOM.Used",
     technologies: ["React ", "React Bootstrap", "Css3", "Firebase Auth"],
   },
+  {
+    id: 11,
+    imgLink: "https://i.ibb.co/71BcC6V/Top-Social-Media-1.png",
+    clientLink: "https://github.com/akalaminamin/Top-social-media",
+    liveLink: "https://top-social-media.netlify.app/",
+    category: "React",
+    title: "Top Social Media In World",
+    description: "Here is top 10 social media list. and Every social media some information. Make this web design using React and Css.",
+    technologies: ["React ", "Css3"],
+  },
 ];
 export const blogs = [
   {
