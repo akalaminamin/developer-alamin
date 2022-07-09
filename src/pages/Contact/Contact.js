@@ -24,7 +24,7 @@ const Contact = () => {
                 Developer Al Amin
               </h2>
               <p className="pb-3 text-gray-700">
-                Here to optimize your online presence with SEO expertise
+              Here you can contact me with my phone or email address.
               </p>
               <p className="text-gray-700">
                 <span className="font-bold">Phone:</span> +8801708033091
@@ -72,7 +72,7 @@ const Contact = () => {
                     name="email"
                   />
                 </div>
-                <div className="w-full flex flex-col mb-4">
+                {/* <div className="w-full flex flex-col mb-4">
                   <label htmlFor="website" className="text-gray-600">
                     Your Website
                   </label>
@@ -81,7 +81,7 @@ const Contact = () => {
                     type="email"
                     name="text"
                   />
-                </div>
+                </div> */}
                 <div className="w-full flex flex-col mb-4">
                   <label htmlFor="phone" className="text-gray-600">
                     Your Message
