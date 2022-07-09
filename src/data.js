@@ -99,16 +99,16 @@ export const blogs = [
   },
   {
     id:2,
-    title:"What is Redux toolkit?",
-    imgLink:"https://res.cloudinary.com/practicaldev/image/fetch/s--PTLyFRBZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0wt9odmq7z3nusc7d40k.png",
-    description:"Redux is a predictable state container for JavaScript apps. As the application grows, it becomes difficult to keep it organized and maintain data flow. Redux solves this problem by managing the application’s state with a single global object called Store.",
-    blogLink:"https://dev.to/akalaminamin/redux-toolkit-110e"
+    title:"What is mongoose?",
+    imgLink:"https://res.cloudinary.com/practicaldev/image/fetch/s--g-g7cB8w--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1wh1xaoxs3hukda616dt.png",
+    description:"Mongoose is a cross-platform embedded web server and networking library. The small footprint of the software enables any Internet-connected device to function as a web server.",
+    blogLink:"https://dev.to/akalaminamin/what-is-mongoose-3do3"
   },
   {
     id:3,
-    title:"What is Redux toolkit query?",
-    imgLink:"https://res.cloudinary.com/practicaldev/image/fetch/s--PTLyFRBZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0wt9odmq7z3nusc7d40k.png",
-    description:"Redux is a predictable state container for JavaScript apps. As the application grows, it becomes difficult to keep it organized and maintain data flow. Redux solves this problem by managing the application’s state with a single global object called Store.",
-    blogLink:"https://dev.to/akalaminamin/redux-toolkit-110e"
+    title:"Closure in JavaScript",
+    imgLink:"https://res.cloudinary.com/practicaldev/image/fetch/s--nZuX5kZh--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/49mxzybpueyeqvl217mr.png",
+    description:"In JavaScript, a closure is a function that references variables in the outer scope from its inner scope. In JavaScript, a function can also contain another function. This is called a nested function.",
+    blogLink:"https://dev.to/akalaminamin/closure-in-javascript-137h"
   }
 ]

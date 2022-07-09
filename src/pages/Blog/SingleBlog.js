@@ -5,10 +5,10 @@ const SingleBlog = ({ blog }) => {
       <div data-aos="fade-up" data-aos-duration="1000">
         <a href={blog.blogLink} target="_blank">
           <div>
-            <img className="w-full rounded-md" src={blog.imgLink} alt="blog" />
+            <img className="w-full rounded-md h-[250px] object-cover" src={blog.imgLink} alt="blog" />
           </div>
           <h2 className="text-xl my-3">{blog.title}</h2>
-          <p className="text-[14px] md:text-[16px]">{blog.description.slice(0, 110)}</p>
+          <p className="text-[14px] md:text-[16px]">{blog.description.slice(0, 108)}</p>
         </a>
       </div>
     </>
