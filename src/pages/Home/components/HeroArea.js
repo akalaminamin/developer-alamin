@@ -1,23 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Typed from 'react-typed';
+import Typed from "react-typed";
 
 const HeroArea = () => {
   return (
-    <section className="container h-auto md:h-screen" data-aos="fade-up" data-aos-duration="1500">
+    <section
+      className="container h-auto md:h-screen"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <div className="flex items-center justify-center h-full">
         <div className="grid grid-cols-1 md:grid-cols-2 font-JosefinSans place-items-center h-full gap-5">
           <div className="content">
             <h2 className="mb-2 text-gray-300">
-            <Typed
+              <Typed
                 strings={[
-                    'Mern Stack Developer',
-                    'Frontend Developer',
-                    'Javascript Developer']}
-                    typeSpeed={60}
-                    backSpeed={60}
-                    loop >
-                </Typed>
+                  "Mern Stack Developer",
+                  "Frontend Developer",
+                  "Javascript Developer",
+                  "Self Learner",
+                ]}
+                typeSpeed={60}
+                backSpeed={60}
+                loop
+              ></Typed>
             </h2>
             <h1 className="text-4xl mb-3">
               Hi, I'm{" "}
@@ -28,8 +34,10 @@ const HeroArea = () => {
             <p>
               I am a Junior Full Stack Web Developer, currently mastering MERN
               stack and it is also my goal. I can convert design to code in
-              pixel perfection. I have much knowledge in pure CSS with animation and css framework bootstrap and tailwind. And also
-              trying to become a master full stack developer. I am always love to learn new technology.
+              pixel perfection. I have much knowledge in pure CSS with animation
+              and css framework bootstrap and tailwind. And also trying to
+              become a master full stack developer. I am always love to learn
+              new technology.
             </p>
             <div className="btn mt-5">
               <a
