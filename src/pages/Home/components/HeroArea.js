@@ -1,12 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Typed from 'react-typed';
+
 const HeroArea = () => {
   return (
     <section className="container h-auto md:h-screen" data-aos="fade-up" data-aos-duration="1500">
       <div className="flex items-center justify-center h-full">
         <div className="grid grid-cols-1 md:grid-cols-2 font-JosefinSans place-items-center h-full gap-5">
           <div className="content">
-            <h2 className="mb-2 text-gray-300">MERN stack developer</h2>
+            <h2 className="mb-2 text-gray-300">
+            <Typed
+                strings={[
+                    'Mern Stack Developer',
+                    'Frontend Developer',
+                    'Javascript Developer']}
+                    typeSpeed={60}
+                    backSpeed={60}
+                    loop >
+                </Typed>
+            </h2>
             <h1 className="text-4xl mb-3">
               Hi, I'm{" "}
               <span className="font-bold underline underline-offset-4 decoration-2 decoration-primary decoration-wavy">
@@ -23,6 +35,7 @@ const HeroArea = () => {
               <a
                 href="https://drive.google.com/file/d/1SpZG674Lb2qFxo3iVOcplekKHMBOrd7H/view?usp=sharing"
                 className="resume-btn"
+                target="_blank"
               >
                 Get Resume
               </a>

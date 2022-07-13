@@ -1,6 +1,6 @@
 import React from "react";
 import { FiFacebook } from "react-icons/fi";
-import { MdOutlineReviews, MdMiscellaneousServices } from "react-icons/md";
+import { MdMiscellaneousServices } from "react-icons/md";
 import { AiOutlineContacts } from "react-icons/ai";
 import {
   BsFillPersonFill,
@@ -19,7 +19,7 @@ const Sidebar = ({ open, setOpen }) => {
     {
       text: "About Me",
       icon: <BsFillPersonFill />,
-      path: "/about",
+      path: "about",
     },
     {
       text: "Services",
@@ -57,7 +57,7 @@ const Sidebar = ({ open, setOpen }) => {
         />
         <h1 className="mt-3 capitalize text-lg">Developer Al Amin</h1>
         <h3 className="capitalize text-sm text-gray-300">
-          Mern Stack Developer
+        Frontend Developer
         </h3>
         <div className="icons flex items-center justify-center gap-4 mt-3">
           <a
