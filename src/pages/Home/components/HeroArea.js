@@ -21,7 +21,7 @@ const HeroArea = () => {
             </p>
             <div className="btn mt-5">
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1SpZG674Lb2qFxo3iVOcplekKHMBOrd7H/view?usp=sharing"
                 className="resume-btn"
               >
                 Get Resume
