@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <section
-        className="py-10 text-gray-200 font-JosefinSans md:h-screen h-auto"
+        className="py-10 text-gray-200 font-JosefinSans md:h-[90vh] h-auto"
         data-aos="fade-in"
         data-aos-duration="1000"
       >

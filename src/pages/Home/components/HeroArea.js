@@ -5,7 +5,7 @@ import Typed from "react-typed";
 const HeroArea = () => {
   return (
     <section
-      className="container h-auto md:h-screen"
+      className="container h-auto md:h-[90vh]"
       data-aos="fade-up"
       data-aos-duration="1500"
     >

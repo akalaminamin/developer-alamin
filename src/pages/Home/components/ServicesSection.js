@@ -44,12 +44,12 @@ const ServicesSection = () => {
     },
   ];
   return (
-    <section className="py-10 text-gray-200 font-JosefinSans h-auto md:h-screen">
+    <section className="py-10 text-gray-200 font-JosefinSans h-auto md:h-[90vh]">
       <div className="">
         <h2 className="section-title mb-6 text-white">
           What I will do for you
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
           {services?.map((item, index) => (
             <div key={index} data-aos="zoom-in" data-aos-duration="1000">
               <span className="text-4xl text-gray-300">{item.icon}</span>
