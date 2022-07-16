@@ -9,7 +9,7 @@ const HeroArea = () => {
       data-aos="fade-up"
       data-aos-duration="1500"
     >
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center h-full py-10 md:py-0">
         <div className="grid grid-cols-1 md:grid-cols-2 font-JosefinSans place-items-center h-full gap-5">
           <div className="content">
             <h2 className="mb-2 text-gray-300">

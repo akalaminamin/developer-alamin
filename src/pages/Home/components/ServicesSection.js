@@ -44,7 +44,7 @@ const ServicesSection = () => {
     },
   ];
   return (
-    <section className="py-10 text-gray-200 font-JosefinSans">
+    <section className="py-10 text-gray-200 font-JosefinSans h-auto md:h-screen">
       <div className="">
         <h2 className="section-title mb-6 text-white">
           What I will do for you
