@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    imgLink: "https://i.ibb.co/Y2B6pch/Agency-website.png",
+    imgLink: "https://i.ibb.co/SX6P4V3/digeco-agency.png",
     clientLink: "https://github.com/akalaminamin/digeco-agency-site",
     liveLink: "https://digeco.netlify.app/",
     category: "Html",
@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     id: 2,
-    imgLink: "https://i.ibb.co/HCDfPdg/Document-1.png",
+    imgLink: "https://i.ibb.co/7S8qjWY/educavo.png",
     clientLink: "https://github.com/akalaminamin/Educavo",
     liveLink: "https://educavo-learning.netlify.app/",
     category: "Html",
@@ -24,7 +24,7 @@ export const projects = [
   {
     id: 3,
     imgLink:
-      "https://i.ibb.co/xGHwzm6/Portfolio-landing-Templete-practice.png",
+      "https://i.ibb.co/6J8LP1S/imroz.png",
     clientLink: "https://github.com/akalaminamin/imroz-portfolio",
     liveLink: "https://imroz-portfolio.netlify.app/",
     category: "Html",
@@ -69,7 +69,7 @@ export const projects = [
   },
   {
     id: 8,
-    imgLink: "https://i.ibb.co/MkdpbV4/word-travel.png",
+    imgLink: "https://i.ibb.co/sFckB8K/travel.png",
     clientLink: "https://github.com/akalaminamin/traveler-place-client",
     backendLink: "https://github.com/akalaminamin/travel-place-server",
     liveLink: "https://travel-booking-4f19a.web.app/",
@@ -91,7 +91,7 @@ export const projects = [
   },
   {
     id: 10,
-    imgLink: "https://i.ibb.co/PTjqH30/Health-Care-general-hospital.png",
+    imgLink: "https://i.ibb.co/CH0kRrM/general.png",
     clientLink: "https://github.com/akalaminamin/General-hospital",
     liveLink: "https://genera-hospital.web.app/",
     category: "React",

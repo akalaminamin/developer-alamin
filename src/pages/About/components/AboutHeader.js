@@ -66,7 +66,7 @@ const AboutHeader = () => {
         <div className="mb-5">
           <FooterIcon />
         </div>
-        <a href="#" target="_blank" className="resume-btn">
+        <a href="https://drive.google.com/file/d/1SpZG674Lb2qFxo3iVOcplekKHMBOrd7H/view" target="_blank" className="resume-btn">
           Get Resume
         </a>
         <h2 className="section-title mb-6 text-white text-left">My Skills</h2>
